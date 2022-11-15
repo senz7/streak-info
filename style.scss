@@ -162,10 +162,6 @@ body {
     right: 0px;
 }
 
-.balance {
-    display: flex;
-    justify-content: space-between;
-}
 // Streak
 
 .streak__content {
@@ -206,6 +202,14 @@ body {
     font-weight: 600;
 }
 
+// Balance
+
+.balance {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
 // Stars
 
 .stars__border {
@@ -233,6 +237,10 @@ body {
     padding-left: 5px;
     color: rgb(35, 134, 247);
     font-weight: 600;
+
+    &:last-child {
+        color: black;
+    }
 }
 
 // Frosties
@@ -264,4 +272,41 @@ body {
     padding-left: 5px;
     font-weight: 600;
     margin-bottom: 2px;
+}
+
+// Level
+
+.level__border {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.level__header {
+    padding: 15px 15px 0px 15px;
+    font-weight: 600;
+}
+
+.level__score {
+    display: flex;
+    padding: 10px 15px 10px 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.level__beginner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 15px 10px 15px;
+}
+
+.beginner {
+    color: rgb(14, 209, 144);
+    font-weight: 400;
+}
+
+.score3 {
+    padding-left: 5px;
+    padding-top: 5px;
 }
