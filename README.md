@@ -1,1 +1,1 @@
-# streak-info
+# Streak Info Mobile
